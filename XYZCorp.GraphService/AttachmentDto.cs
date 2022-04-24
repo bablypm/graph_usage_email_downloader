@@ -1,4 +1,4 @@
-﻿namespace LinkJar.GraphService
+﻿namespace XYZCorp.GraphService
 {
     public class AttachmentDto
     {

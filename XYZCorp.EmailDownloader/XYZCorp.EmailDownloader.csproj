@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LinkJar.GraphService\LinkJar.GraphService.csproj">
+    <ProjectReference Include="..\XYZCorp.GraphService\XYZCorp.GraphService.csproj">
       <Project>{482fc130-9145-4e76-bb46-b932af818502}</Project>
-      <Name>LinkJar.GraphService</Name>
+      <Name>XYZCorp.GraphService</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

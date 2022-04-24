@@ -1,10 +1,10 @@
-﻿using LinkJar.GraphService;
+﻿using XYZCorp.GraphService;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Threading.Tasks;
 
-namespace LinkJar.EmailDownloader
+namespace XYZCorp.EmailDownloader
 {
     public class Program
     {

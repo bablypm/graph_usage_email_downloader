@@ -3,7 +3,7 @@ using Microsoft.Graph;
 using System;
 using System.Configuration;
 
-namespace LinkJar.GraphService
+namespace XYZCorp.GraphService
 {
     public static class CredentialManager
     {

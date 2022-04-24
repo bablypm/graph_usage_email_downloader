@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32407.337
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkJar.EmailDownloader", "LinkJar.EmailDownloader\LinkJar.EmailDownloader.csproj", "{26B27C65-C565-4980-82D4-0F3B0502FBEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XYZCorp.EmailDownloader", "XYZCorp.EmailDownloader\XYZCorp.EmailDownloader.csproj", "{26B27C65-C565-4980-82D4-0F3B0502FBEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkJar.GraphService", "LinkJar.GraphService\LinkJar.GraphService.csproj", "{482FC130-9145-4E76-BB46-B932AF818502}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XYZCorp.GraphService", "XYZCorp.GraphService\XYZCorp.GraphService.csproj", "{482FC130-9145-4E76-BB46-B932AF818502}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

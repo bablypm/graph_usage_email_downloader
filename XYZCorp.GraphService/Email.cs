@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LinkJar.GraphService
+namespace XYZCorp.GraphService
 {
     public class EmailMessage
     {

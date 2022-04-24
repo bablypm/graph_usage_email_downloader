@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Threading.Tasks;
 
-namespace LinkJar.GraphService
+namespace XYZCorp.GraphService
 {
     public class EmailService
     {
