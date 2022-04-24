@@ -68,8 +68,10 @@ namespace LinkJar.GraphService
         {
             List<EmailMessage> emails = new List<EmailMessage>();
 
-            string receivedDateFiler = GetReceivedDateFilter(fromDate);
-            var messages = await _graphClient.Users[userId].Messages.Request().Filter(receivedDateFiler).GetAsync();
+            string isoFormat = String.Concat(fromDate.ToString("yyyy-MM-dd"), "T00:00:00Z");
+            string dateFilter = $"ReceivedDateTime ge {isoFormat}";
+            
+            var messages = await _graphClient.Users[userId].Messages.Request().Filter(dateFilter).GetAsync();
 
             foreach (var message in messages)
             {
@@ -103,14 +105,6 @@ namespace LinkJar.GraphService
             }
 
             return emails;
-        }
-
-        private string GetReceivedDateFilter(DateTime fromDate)
-        {
-            string isoFormat = String.Concat(fromDate.ToString("yyyy-MM-dd"), "T00:00:00Z");
-            string filter = $"ReceivedDateTime ge {isoFormat}";
-
-            return filter;
-        }
+        }        
     }
 }
